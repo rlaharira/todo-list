@@ -1,4 +1,4 @@
-unction addTask() {
+function addTask() {
   let task = document.getElementById("task").value;
   if (task === "") return;
 
@@ -8,3 +8,5 @@ unction addTask() {
   document.getElementById("list").appendChild(li);
   document.getElementById("task").value = "";
 }
+
+
